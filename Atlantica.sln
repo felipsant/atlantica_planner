@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantica.Crawler", "Atlantica.Crawler\Atlantica.Crawler.csproj", "{A220324C-A52B-4E9B-A6F8-E2B917C4A361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantica.Domain", "Atlantica.Domain\Atlantica.Domain.csproj", "{230B738F-896A-42B6-939E-8A3DA15B586A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantica.Data", "Atlantica.Data\Atlantica.Data.csproj", "{8B018C7E-5DF5-4774-87F7-9388B86D55C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantica.Api", "Atlantica.Api\Atlantica.Api.csproj", "{E8695A44-D4CD-4E10-AB27-4C58659873A8}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Atlantica.Mobile", "http://localhost:62402", "{53AE4C04-2446-474A-87A9-23CBFB36EA72}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62402"
+		Debug.AspNetCompiler.PhysicalPath = "Atlantica.Mobile\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62402\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62402"
+		Release.AspNetCompiler.PhysicalPath = "Atlantica.Mobile\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62402\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Atlantica.Mobile\"
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Atlantica.DataBase", "Atlantica.DataBase\Atlantica.DataBase.sqlproj", "{712EF551-FF90-4A8C-A654-ABDB0CA785BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A220324C-A52B-4E9B-A6F8-E2B917C4A361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A220324C-A52B-4E9B-A6F8-E2B917C4A361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A220324C-A52B-4E9B-A6F8-E2B917C4A361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A220324C-A52B-4E9B-A6F8-E2B917C4A361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230B738F-896A-42B6-939E-8A3DA15B586A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230B738F-896A-42B6-939E-8A3DA15B586A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230B738F-896A-42B6-939E-8A3DA15B586A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230B738F-896A-42B6-939E-8A3DA15B586A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B018C7E-5DF5-4774-87F7-9388B86D55C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B018C7E-5DF5-4774-87F7-9388B86D55C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B018C7E-5DF5-4774-87F7-9388B86D55C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B018C7E-5DF5-4774-87F7-9388B86D55C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8695A44-D4CD-4E10-AB27-4C58659873A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8695A44-D4CD-4E10-AB27-4C58659873A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8695A44-D4CD-4E10-AB27-4C58659873A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8695A44-D4CD-4E10-AB27-4C58659873A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AE4C04-2446-474A-87A9-23CBFB36EA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AE4C04-2446-474A-87A9-23CBFB36EA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AE4C04-2446-474A-87A9-23CBFB36EA72}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AE4C04-2446-474A-87A9-23CBFB36EA72}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{712EF551-FF90-4A8C-A654-ABDB0CA785BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712EF551-FF90-4A8C-A654-ABDB0CA785BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712EF551-FF90-4A8C-A654-ABDB0CA785BE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{712EF551-FF90-4A8C-A654-ABDB0CA785BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712EF551-FF90-4A8C-A654-ABDB0CA785BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712EF551-FF90-4A8C-A654-ABDB0CA785BE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
